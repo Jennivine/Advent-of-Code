@@ -12,7 +12,6 @@ print ans
 
 
 #PART TWO
-import itertools
 ans = 0 #reset ans for second part :)
 SIZE = len(frequencies)
 i = 0
@@ -25,6 +24,7 @@ while not ans in reachedFreq:
 print ans
 
 '''
+import itertools
 for num in itertools.cycle(frequencies):
 	ans += num
 	if ans in reachedFreq:
