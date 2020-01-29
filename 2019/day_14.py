@@ -71,7 +71,7 @@ print(fuelPerOre)
 
 # part 2
 totalOre = 1000000000000
-fuelMin = floor(totalOre / 13312)
+fuelMin = floor(totalOre / fuelPerOre)
 fuelMax = fuelMin * 2
 
 while fuelMin+1 != fuelMax:
